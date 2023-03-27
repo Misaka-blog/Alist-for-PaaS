@@ -17,7 +17,13 @@ TIPS: 可点击仓库的“Use this template”在仓库的原基础上创建私
   | 变量名 | 是否必须 | 值 | 备注 |
   | ------------- | ------ | ------ | ------ |
   | PORT | 是 | 5244 | Alist 服务端口，一定要5244 |
-  | DB_TYPE | 否 | mysql | 数据库类型 |
+  | DB_TYPE | 否 | sqlite3，mysql 或者 postgres | 数据库类型 |
+  | DB_HOST | 否 | | 数据库地址 |
+  | DB_PORT | 否 | | 数据库端口 |
+  | DB_NAME | 否 | | 数据库名称 |
+  | DB_USER | 否 | | 数据库用户名 |
+  | DB_PASS | 否 | | 数据库密码 |
+  | DB_TABLE_PREFIX | 否 | | 数据库表前缀 |
 
 * GitHub Actions 用到的变量
 
